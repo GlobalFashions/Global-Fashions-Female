@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Valentino Female Converter</h1>
+        <input type="file" id="fileInputFemale" accept=".csv, .xlsx">
+        <button id="processButtonFemale">Run</button>
+        <a id="downloadLinkFemale" style="display:none;">Download Formatted File</a>
+    </div>
+
+    <div class="container">
+        <h1>Valentino Male Converter</h1>
+        <input type="file" id="fileInputMale" accept=".csv, .xlsx">
+        <button id="processButtonMale">Run</button>
+        <a id="downloadLinkMale" style="display:none;">Download Formatted File</a>
+    </div>
+
+    <div class="container">
+        <h1>Mikael Aghal Converter</h1>
+        <input type="file" id="fileInputMikael" accept=".csv, .xlsx">
+        <button id="processButtonMikael">Run</button>
+        <a id="downloadLinkMikael" style="display:none;">Download Formatted File</a>
+    </div>
+
+    <!-- Link to the correct JavaScript files -->
+    <script src="fileInputFemale.js"></script>
+    <script src="fileInputMale.js"></script>
+    <script src="fileInputMikael.js"></script>
+</body>
+</html>
